@@ -1,0 +1,221 @@
+h1 {
+  text-align: center;
+  color: midnightblue;
+  font-size: 2.5vw;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+  overflow-x: hidden;
+}
+
+marquee {
+  background-color: cornflowerblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: lightcyan;
+  text-shadow: 1px 1px;
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+}
+
+.me1 {
+  border-left: 6px solid midnightblue;
+  background-color: lightgrey;
+  font-size: 25px;
+  color: midnightblue;
+}
+
+.img {
+  height: auto;
+}
+
+#me {
+  text-align: center;
+  border-radius: 15px 50px;
+  border: 2px solid midnightblue;
+  padding: 10px;
+  width: 555px;
+  height: 120px;
+  color: midnightblue;
+  background-color: powderblue;
+  flex-basis: 50%;
+  font-size: 1.2vw;
+  width: 50%;
+}
+
+#coding1 {
+  border-left: 6px solid midnightblue;
+  background-color: lightgrey;
+  font-size: 25px;
+  color: midnightblue;
+}
+
+.coding {
+  text-align: center;
+  border-radius: 50px 15px;
+  border: 2px solid midnightblue;
+  padding: 10px;
+  width: 555px;
+  height: 115px;
+  color: midnightblue;
+  background-color: powderblue;
+  flex-basis: 50%;
+  font-size: 1.2vw;
+  width: 50%;
+}
+
+#aiml1 {
+  border-left: 6px solid midnightblue;
+  background-color: lightgrey;
+  color: midnightblue;
+  font-size: 25px;
+}
+
+#sports1 {
+  border-left: 6px solid powderblue;
+  background-color: darkblue;
+  color: powderblue;
+  font-size: 25px;
+  width: 100%;
+}
+
+#sportsperson1 {
+  border-left: 6px solid powderblue;
+  background-color: darkblue;
+  color: powderblue;
+  font-size: 25px;
+  width: 100%;
+}
+
+#song1 {
+  border-left: 6px solid midnightblue;
+  background-color: lightgrey;
+  color: midnightblue;
+  font-size: 25px;
+  height: 35px;
+  padding: 10px;
+}
+
+#internships1 {
+  border-left: 6px solid powderblue;
+  background-color: darkblue;
+  color: powderblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+.aiml {
+  text-align: center;
+  background-color: powderblue;
+  width: 300px;
+  border: 5px solid midnightblue;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  color: midnightblue;
+  font-size: 17px;
+  border-radius: 30px 5px 5px 30px;
+  flex-basis: 100%;
+}
+
+.grid-container {
+  /* display: grid; */
+  grid-template-columns: auto auto auto auto;
+  gap: 300px;
+  padding: 100px;
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    flex-direction: column;
+  }
+}
+
+.grid-container>div {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 15px;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 100px;
+  padding: 10px;
+  padding-left: 70px;
+  width: 100%;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .grid-container1 {
+    flex-direction: column;
+  }
+}
+
+.grid-container1>div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+.sports {
+  color: midnightblue;
+  flex-basis: 100%;
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+.sportsperson {
+  width: 100%;
+  color: midnightblue;
+  flex-basis: 100%;
+  font-size: 1.5vw;
+}
+
+.song {
+  text-align: center;
+  background-color: powderblue;
+  width: 300px;
+  border: 5px solid midnightblue;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  color: midnightblue;
+  font-size: 17px;
+  border-radius: 5px 30px 30px 5px;
+  flex-basis: 100%;
+}
+
+.grid-container2 {
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+  gap: 100px;
+  padding-top: 10px;
+  padding-left: 300px;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .grid-container2 {
+    flex-direction: column;
+  }
+}
+
+.grid-container2>div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.internships {
+  color: midnightblue;
+  font-size: 1.5vw;
+  text-align: center;
+}
