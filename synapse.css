@@ -1,12 +1,6 @@
 h1 {
   text-align: center;
   color: midnightblue;
-  font-size: 2.5vw;
-}
-
-body {
-  background-color: lightgoldenrodyellow;
-  overflow-x: hidden;
 }
 
 marquee {
@@ -17,20 +11,12 @@ marquee {
   text-shadow: 1px 1px;
 }
 
-nav {
-  text-align: center;
-  width: 100%;
-}
-
-.me1 {
+#me1 {
   border-left: 6px solid midnightblue;
   background-color: lightgrey;
   font-size: 25px;
   color: midnightblue;
-}
-
-.img {
-  height: auto;
+  width: 800px;
 }
 
 #me {
@@ -38,13 +24,11 @@ nav {
   border-radius: 15px 50px;
   border: 2px solid midnightblue;
   padding: 10px;
-  width: 555px;
-  height: 120px;
+  width: 800px;
+  height: 145px;
   color: midnightblue;
   background-color: powderblue;
-  flex-basis: 50%;
-  font-size: 1.2vw;
-  width: 50%;
+  font-size: 15px;
 }
 
 #coding1 {
@@ -52,20 +36,19 @@ nav {
   background-color: lightgrey;
   font-size: 25px;
   color: midnightblue;
+  width: 800px;
 }
 
-.coding {
+#coding {
   text-align: center;
   border-radius: 50px 15px;
   border: 2px solid midnightblue;
   padding: 10px;
-  width: 555px;
-  height: 115px;
+  width: 800px;
+  height: 125px;
   color: midnightblue;
   background-color: powderblue;
-  flex-basis: 50%;
-  font-size: 1.2vw;
-  width: 50%;
+  font-size: 15px;
 }
 
 #aiml1 {
@@ -80,7 +63,8 @@ nav {
   background-color: darkblue;
   color: powderblue;
   font-size: 25px;
-  width: 100%;
+  width: 600px;
+  text-align: center;
 }
 
 #sportsperson1 {
@@ -88,7 +72,7 @@ nav {
   background-color: darkblue;
   color: powderblue;
   font-size: 25px;
-  width: 100%;
+  text-align: center;
 }
 
 #song1 {
@@ -97,7 +81,8 @@ nav {
   color: midnightblue;
   font-size: 25px;
   height: 35px;
-  padding: 10px;
+  padding-left: 10px;
+  text-align: center;
 }
 
 #internships1 {
@@ -108,114 +93,44 @@ nav {
   text-align: center;
 }
 
-.aiml {
+#aiml {
   text-align: center;
   background-color: powderblue;
-  width: 300px;
+  width: 500px;
   border: 5px solid midnightblue;
-  border-radius: 10px;
   padding: 15px;
   margin: 10px;
   color: midnightblue;
   font-size: 17px;
   border-radius: 30px 5px 5px 30px;
-  flex-basis: 100%;
-}
-
-.grid-container {
-  /* display: grid; */
-  grid-template-columns: auto auto auto auto;
-  gap: 300px;
-  padding: 100px;
-  display: flex;
-}
-
-@media (max-width: 800px) {
-  .grid-container {
-    flex-direction: column;
-  }
-}
-
-.grid-container>div {
   text-align: center;
-  padding: 20px 0px;
+}
+
+#sports {
+  color: midnightblue;
   font-size: 15px;
 }
 
-.grid-container1 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 100px;
-  padding: 10px;
-  padding-left: 70px;
-  width: 100%;
-  flex-direction: row;
-}
-
-@media (max-width: 800px) {
-  .grid-container1 {
-    flex-direction: column;
-  }
-}
-
-.grid-container1>div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
-  width: 100%;
-}
-
-.sports {
+#sportsperson {
   color: midnightblue;
-  flex-basis: 100%;
-  font-size: 1.5vw;
-  width: 100%;
+  font-size: 15px;
 }
 
-.sportsperson {
-  width: 100%;
-  color: midnightblue;
-  flex-basis: 100%;
-  font-size: 1.5vw;
-}
-
-.song {
+#song {
   text-align: center;
   background-color: powderblue;
-  width: 300px;
+  width: 500px;
   border: 5px solid midnightblue;
-  border-radius: 10px;
   padding: 15px;
   margin: 10px;
   color: midnightblue;
   font-size: 17px;
   border-radius: 5px 30px 30px 5px;
-  flex-basis: 100%;
+  height: 420px;
 }
 
-.grid-container2 {
-  display: flex;
-  grid-template-columns: auto auto auto auto;
-  gap: 100px;
-  padding-top: 10px;
-  padding-left: 300px;
-  flex-direction: row;
-}
-
-@media (max-width: 800px) {
-  .grid-container2 {
-    flex-direction: column;
-  }
-}
-
-.grid-container2>div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
-}
-
-.internships {
+#internships {
   color: midnightblue;
-  font-size: 1.5vw;
+  font-size: 20px;
   text-align: center;
 }
